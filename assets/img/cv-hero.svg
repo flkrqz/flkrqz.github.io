@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+<title id="title">Technologijų ir programavimo iliustracija</title>
+<desc id="desc">Šviesiame fone vaizduojamas kompiuterio ekranas su programavimo eilutėmis ir neuroninių ryšių taškais.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e8f3ff"/><stop offset="1" stop-color="#f4f8ff"/></linearGradient>
+ <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#163757"/><stop offset="1" stop-color="#0d223b"/></linearGradient>
+ <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#218bd5"/><stop offset="1" stop-color="#74d7e8"/></linearGradient>
+ <filter id="sh"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#1f4b7a" flood-opacity=".18"/></filter>
+</defs>
+<rect width="1200" height="750" fill="url(#bg)"/>
+<g opacity=".20" stroke="#6fa3d3" fill="none"><path d="M0 140H1200M0 280H1200M0 420H1200M0 560H1200M140 0V750M300 0V750M460 0V750M620 0V750M780 0V750M940 0V750M1100 0V750"/></g>
+<circle cx="1010" cy="132" r="118" fill="#cde9ff" opacity=".75"/><circle cx="250" cy="630" r="170" fill="#c8e8f7" opacity=".4"/>
+<g filter="url(#sh)"><rect x="342" y="145" width="715" height="430" rx="25" fill="url(#screen)"/>
+ <rect x="342" y="145" width="715" height="52" rx="25" fill="#244563"/><rect x="342" y="172" width="715" height="25" fill="#244563"/>
+ <circle cx="379" cy="172" r="8" fill="#ff7b8d"/><circle cx="406" cy="172" r="8" fill="#ffca68"/><circle cx="433" cy="172" r="8" fill="#7dd8b0"/>
+ <rect x="387" y="239" width="154" height="11" rx="5" fill="#5fd6e4"/><rect x="554" y="239" width="182" height="11" rx="5" fill="#87a9e6"/>
+ <rect x="420" y="279" width="300" height="11" rx="5" fill="#9ec0db"/><rect x="420" y="319" width="202" height="11" rx="5" fill="#f2bf7c"/>
+ <rect x="463" y="359" width="230" height="11" rx="5" fill="#9ec0db"/><rect x="463" y="399" width="157" height="11" rx="5" fill="#6cd0ba"/>
+ <rect x="419" y="439" width="335" height="11" rx="5" fill="#9ec0db"/><rect x="387" y="479" width="180" height="11" rx="5" fill="#5fd6e4"/>
+ <path d="M677 575v26h72v25H560v-25h72v-26" fill="#678ead"/><rect x="555" y="626" width="198" height="12" rx="6" fill="#678ead"/>
+</g>
+<g stroke="#1c93c0" stroke-width="5" opacity=".75"><path d="M872 270L946 315L875 370L962 438" fill="none"/>
+ <circle cx="872" cy="270" r="13" fill="#b6edf7"/><circle cx="946" cy="315" r="13" fill="#b6edf7"/><circle cx="875" cy="370" r="13" fill="#b6edf7"/><circle cx="962" cy="438" r="13" fill="#b6edf7"/>
+</g>
+<g transform="translate(205 274)" filter="url(#sh)"><rect width="194" height="161" rx="20" fill="white"/><path d="M64 57L43 81L64 105M131 57L152 81L131 105M112 45L83 119" stroke="#1b87d2" stroke-width="11" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

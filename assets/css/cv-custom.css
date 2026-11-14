@@ -1,0 +1,28 @@
+/* Papildomi CV svetaines stiliai (7 laboratorinis darbas) */
+:root { --accent-color: #1377b9; }
+.hero { position:relative; min-height: 88vh; display:flex; align-items:center; overflow:hidden; }
+.hero img.hero-bg { position:absolute; inset:0; height:100%; width:100%; object-fit:cover; opacity:.93; }
+.hero:before { content:""; position:absolute; inset:0; background:linear-gradient(90deg,#f3f9ff 0%,rgba(244,249,255,.97) 35%,rgba(244,249,255,.65) 60%,rgba(244,249,255,.12) 100%); z-index:1; }
+.hero .container { position:relative; z-index:2; }
+.hero h2 { font-size:clamp(38px,5vw,64px); letter-spacing:-1.5px; color:#12334d; }
+.hero p { color:#255572; }
+.hero .hero-description { max-width:580px; font-size:18px; line-height:1.8; color:#3f596d; margin-top:24px; }
+.hero .eyebrow { display:inline-block; font-size:13px; font-weight:750; color:#1377b9; letter-spacing:2.4px; margin-bottom:15px; }
+.hero .hero-cta { margin-top:28px; border-radius:100px; padding:13px 27px; font-weight:600; }
+.about .content h2 { font-size:28px; }
+.about .content p { line-height:1.85; }
+.cv-about-image { box-shadow:0 15px 40px rgba(24,72,104,.12); background:#edf6fe; }
+.cv-skill, .cv-project { height:100%; background:white; border:1px solid #e4edf4; border-radius:16px; padding:27px; box-shadow:0 8px 30px rgba(25,65,100,.045); }
+.cv-skill>i { font-size:36px; color:#1377b9; }
+.cv-skill h3,.cv-project h3 { font-size:20px; margin:17px 0 10px; }
+.cv-skill p,.cv-project p { color:#617181; margin-bottom:0; }
+.cv-project .project-icon { display:flex; width:54px; height:54px; align-items:center; justify-content:center; background:#e8f4fd; border-radius:13px; color:#1377b9; font-size:27px; }
+.cv-project p { min-height:90px; line-height:1.7; }
+.project-tag { display:inline-block; margin-top:18px; color:#1678af; background:#e7f4fe; border-radius:20px; padding:5px 12px; font-size:13px; font-weight:600; }
+.cv-contact { display:flex; align-items:flex-start; gap:18px; background:#f6fbff; border-radius:16px; padding:24px; min-height:130px; }
+.cv-contact>i { color:#1377b9; font-size:28px; }
+.cv-contact h3 { font-size:18px; margin:0 0 8px; }
+.cv-contact p { margin:0; color:#526576; }
+.editable-placeholder { font-style:italic; }
+.footer { padding:42px 0; }
+@media(max-width:900px){ .hero:before { background:rgba(244,249,255,.83); } .hero img.hero-bg {opacity:.5;} .hero .hero-description{font-size:16px;} }
