@@ -26,3 +26,28 @@
 .editable-placeholder { font-style:italic; }
 .footer { padding:42px 0; }
 @media(max-width:900px){ .hero:before { background:rgba(244,249,255,.83); } .hero img.hero-bg {opacity:.5;} .hero .hero-description{font-size:16px;} }
+
+/* 8 laboratorinis darbas – patirtis, projektai, paslaugos ir medija */
+.cv-project-photo { padding: 16px 16px 24px; overflow: hidden; }
+.cv-project-photo img { display:block; width:100%; height:215px; object-fit:contain; object-position:center; background:#f2f6fa; border-radius:12px; border:1px solid #e4edf4; }
+.cv-project-photo h3 { margin:18px 5px 10px; }
+.cv-project-photo p { min-height:105px; margin:0 5px; }
+.cv-project-photo .project-tag { margin-left:5px; }
+.cv-subheading { font-size:24px; color:#24495f; margin:12px 0 14px; }
+.cv-note,.cv-source {color:#647586; font-size:14px;}
+.cv-service-table {background:white; min-width:540px;}
+.cv-service-table th {background:#e8f4fd; color:#1c5475;}
+.cv-service-table th,.cv-service-table td {padding:15px 17px;}
+.cv-service-table td:last-child {white-space:nowrap; font-weight:650;}
+.cv-list-card,.cv-media-card {height:100%; background:#f6fbff; padding:25px; border-radius:16px; border:1px solid #dcebf6;}
+.cv-list-card h3,.cv-media-card h4 {font-size:20px; margin:0 0 17px; color:#28495e;}
+.cv-list-card ul,.cv-list-card ol {margin-bottom:0; padding-left:23px; line-height:1.85;}
+.cv-list-card ul ul {padding-left:20px;}
+.cv-media {margin-top:44px;}
+.cv-media-card video,.cv-media-card audio {width:100%; max-width:100%; border-radius:10px; display:block;}
+.cv-media-card video {background:#e8f2f9; aspect-ratio:16/9; object-fit:contain;}
+.cv-media-card audio {margin-top:12px;}
+.cv-media-card .cv-source {margin:13px 0 0;}
+.cv-iframe {position:relative; width:100%; aspect-ratio:16/9; overflow:hidden; border-radius:10px;}
+.cv-iframe iframe {border:0; width:100%; height:100%;}
+@media(max-width:768px){.cv-project-photo img{height:200px;}.cv-service-table{min-width:490px;}}
